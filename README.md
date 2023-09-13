@@ -37,3 +37,7 @@ constant factors.
 Describe your reasoning and the conclusion you've come to. Your reasoning is
 most important -- you can easily find the answer, but you need to demonstrate
 that you've understood the concept. Add your answer to this markdown file.
+
+## Answer
+
+I believe that the average case time complexity is $\Theta(n^2)$. I believe this mainly because of the for loops. For the first time in the loop you start at index one so you have two elements. Then in the inner for loop you go through all of the elements you iterated through and sort them (if needed). What im trying to say is that for the outer for loop you have $n$ elements and in the inner for loop you have $n$ things to iterate through. So in total you have $n$ elements with $n$ elements to do per $n$. So that how I get to $n*n$ or $n^2$ or $\Theta(n^2)$
